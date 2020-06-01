@@ -1,0 +1,61 @@
+site_name: binjr Linux repositories
+site_description: binjr Linux repositories
+site_url: https://binjr.eu/
+copyright: Copyright © 2020 Frederic Thevenet
+repo_url: ""
+edit_uri: ""
+
+nav:
+  - Home:
+    - https://binjr.eu
+  - APT Repository:
+    - apt/README.md
+  - RPM Repository:
+    - rpm/README.md
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  features:
+    - tabs
+  favicon: https://binjr.eu/assets/images/favicon.png
+  logo: https://binjr.eu/assets/images/binjr_128.png
+  icon:
+    repo: fontawesome/brands/github
+  highlightjs: true
+  hljs_languages:
+    - java
+    - sh
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - meta
+  - smarty
+  - extra
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - codehilite:
+      guess_lang: False
+      use_pygments: True
+      noclasses: True
+      pygments_style: monokai
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/binjr
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/binjr_app
