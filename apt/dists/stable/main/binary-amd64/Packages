@@ -1,0 +1,23 @@
+Package: binjr
+Priority: optional
+Section: Utility
+Installed-Size: 86400
+Maintainer: Frederic Thevenet <binjr@free.fr>
+Architecture: amd64
+Version: 3.23.0-1
+Provides: binjr
+Depends: libasound2, libatk-bridge2.0-0, libatk1.0-0, libatspi2.0-0, libblkid1, libbsd0, libc6, libcairo-gobject2, libcairo2, libdatrie1, libdbus-1-3, libepoxy0, libexpat1, libffi6 | libffi7 | libffi8, libfontconfig1, libfreetype6, libfribidi0, libgcrypt20, libgdk-pixbuf2.0-0, libgl1, libglib2.0-0, libglvnd0, libglx0, libgpg-error0, libgraphite2-3, libgtk-3-0, libgtk2.0-0, libharfbuzz0b, liblz4-1, liblzma5, libmount1, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre2-8-0, libpcre3, libpixman-1-0, libpng16-16, libselinux1, libsystemd0, libthai0, libuuid1, libwayland-client0, libwayland-cursor0, libwayland-egl1, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcomposite1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxkbcommon0, libxrandr2, libxrender1, libxtst6, xdg-utils, zlib1g
+Filename: pool/main/b/binjr/binjr-3.23.0_linux-amd64.deb
+Size: 86373718
+MD5sum: 0f69b7cdf067dc55345af61a0c2b7e11
+SHA1: f390efc8f739b3ca677167a01277c706ded50744
+SHA256: 42f92a5a4adc9e6d075b2505d7ba870df49742c212612f8676bef14145e279cd
+SHA512: ed30130b31d8be77e95cd8fe64411572cbe05d7b59b834fc3ca445e4241c11e6b336b95beeafb3ad1814d7b0576b28388901eef7156b47e0094e217126038b3b
+Description: A Time Series Data Browser
+ binjr is a standalone time series browser. 
+ it renders time series data produced by other 
+ applications as dynamically editable charts 
+ and provides advanced features to navigate 
+ the data smoothly and efficiently.
+Homepage: https://binjr.eu
+
