@@ -8,11 +8,14 @@ edit_uri: ""
 nav:
   - Home:
     - https://binjr.eu
-  - APT Repository:
+  - APT:
     - apt/README.md
-  - RPM Repository:
+  - RPM:
     - rpm/README.md
-    
+  - AUR:
+    - aur/README.md
+  - Winget:
+    - winget/README.md  
 extra_css:
   - stylesheets/extra.css
 
