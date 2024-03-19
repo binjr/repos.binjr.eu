@@ -14,5 +14,5 @@ To add the binjr repository on a RHEL, Centos or Fedora system:
 
 3. Install binjr.
     ``` sh
-    sudo yum install binjr
+    sudo dnf install binjr
     ```

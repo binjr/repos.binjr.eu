@@ -1,5 +1,5 @@
 site_name: ""
-site_description: binjr Linux repositories
+site_description: Installing binjr using a package manager
 site_url: https://binjr.eu/
 copyright: This website is licensed under a Creative Commons Attribution 4.0 International License.
 repo_url: ""
@@ -8,11 +8,14 @@ edit_uri: ""
 nav:
   - Home:
     - https://binjr.eu
-  - APT Repository:
+  - APT:
     - apt/README.md
-  - RPM Repository:
+  - RPM:
     - rpm/README.md
-    
+  - AUR:
+    - aur/README.md
+  - Winget:
+    - winget/README.md  
 extra_css:
   - stylesheets/extra.css
 
