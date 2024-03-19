@@ -14,37 +14,7 @@
  *    limitations under the License.
  */
 
-:root {
-
-    -binjr-window-background-color: black;
-    -binjr-pane-background-color: #262626;
-    -binjr-button-background-color: #404040;
-    -binjr-icon-background-color: #505050;
-    -binjr-control-border-color: #808080;
-    -binjr-control-border-hilite-color: #bababa;
-    -binjr-gray-border-color: #C8C8C8;
-    -fx-text-background-color: #ebebeb;
-
-    -binjr-command-bar-border-color: #152E38;
-    -binjr-background-color: #204656;
-    -binjr-command-bar-title-color: #285668;
-    -binjr-dark-blue-color: #336f87;
-    -binjr-blue-color: #4BACC6;
-    -binjr-light-blue-color: #92CDDC;
-    -binjr-lighter-blue-color: #B7DEE8;
-    -binjr-foreground-color: #DAEEF3;
-
-
-    /* Default color shades */
-    /*--md-default-fg-color: #204656;*/
-    /*--md-default-fg-color--light: #C8C8C8;*/
-    /*--md-default-fg-color--lighter: #ebebeb;*/
-    /*--md-default-fg-color--lightest: white;*/
-
-    /*--md-default-bg-color: #204656;*/
-    /*!*--md-default-bg-color--light: #505050;*!*/
-    /*!*--md-default-bg-color--lighter: #808080;*!*/
-    /*!*--md-default-bg-color--lightest: #bababa;*!*/
+:root > * {
 
     /*!*!* Primary color shades *!*!*/
     --md-primary-fg-color: #204656;
@@ -80,7 +50,27 @@
     background-color: #808080;
 }
 
+.md-nav__item .md-nav__link--active,
 .md-typeset a {
     color: #4291AF;
 }
 
+.md-header__button {
+
+}
+
+.md-header__button.md-logo {
+    padding: 0;
+}
+.md-nav__title .md-nav__button.md-logo img,
+.md-header__button.md-logo img {
+    height: 2rem;
+    width: 4.4rem;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 215; /* [0, 360] */
+}
+/*.md-content {*/
+/*    max-width: 800px;*/
+/*}*/

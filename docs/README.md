@@ -1,7 +1,7 @@
 # binjr Linux repositories
 
 The Linux repositories for [binjr](https://binjr.eu) provides free public downloads of binjr packages 
-for Linux distributions based around the RPM or APT package managers.
+for Linux distributions.
 
 For Ubuntu or Debian Systems:
 

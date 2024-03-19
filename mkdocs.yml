@@ -1,7 +1,7 @@
-site_name: binjr Linux repositories
+site_name: ""
 site_description: binjr Linux repositories
 site_url: https://binjr.eu/
-copyright: Copyright © 2020 Frederic Thevenet
+copyright: This website is licensed under a Creative Commons Attribution 4.0 International License.
 repo_url: ""
 edit_uri: ""
 
@@ -12,22 +12,35 @@ nav:
     - apt/README.md
   - RPM Repository:
     - rpm/README.md
-
+    
 extra_css:
   - stylesheets/extra.css
 
 theme:
   name: material
+  custom_dir: overrides
   features:
-    - tabs
+    - navigation.tabs
+    - content.code.select
+    - content.code.copy
   favicon: https://binjr.eu/assets/images/favicon.png
-  logo: https://binjr.eu/assets/images/binjr_128.png
-  icon:
-    repo: fontawesome/brands/github
+  logo: https://binjr.eu/assets/images/binjr_logo.png
   highlightjs: true
   hljs_languages:
     - java
     - sh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: octicons/moon-24
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: octicons/sun-24
+        name: Switch to light mode
 
 markdown_extensions:
   - toc:
@@ -36,19 +49,26 @@ markdown_extensions:
   - meta
   - smarty
   - extra
-  - pymdownx.magiclink
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.magiclink
   - pymdownx.details
   - pymdownx.mark
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - codehilite:
       guess_lang: False
       use_pygments: True
       noclasses: True
       pygments_style: monokai
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
@@ -57,5 +77,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/binjr
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/binjr_app
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@binjr
+
