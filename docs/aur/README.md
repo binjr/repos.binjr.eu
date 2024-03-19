@@ -5,7 +5,7 @@
 pacman -S base-devel
 ```
 
-2. Get the build files for the binjr package for the AUR:
+2. Get the build files for the binjr package from the AUR:
 ```
 git clone https://aur.archlinux.org/packages/binjr-bin
 ```
