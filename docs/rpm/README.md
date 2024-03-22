@@ -3,16 +3,16 @@
 To add the binjr repository on a RHEL, Centos or Fedora system:
 
 1. Import binjr's developers public keys.
-    ``` sh
+    ``` bash
     sudo rpm --import https://binjr.eu/openpgpkey/binjr_dev_pub_keys.asc
     ```
 
  2. Add the repository.
-    ``` sh
+    ``` bash
     sudo curl -o /etc/yum.repos.d/binjr.repo https://repos.binjr.eu/rpm/binjr.repo
     ```
 
 3. Install binjr.
-    ``` sh
+    ``` bash
     sudo dnf install binjr
     ```
